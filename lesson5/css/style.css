@@ -1,0 +1,13 @@
+
+.reg {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 500px;
+    height: 500px;
+    background: hsl(0, 0%, 83%);
+    padding: 50px 50px;
+    line-height: 2;
+    tab: 20px
+    
+}

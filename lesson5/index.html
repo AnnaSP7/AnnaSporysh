@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма реєстрації</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+   <form class="reg" method="post">
+    <label>
+        Повне ім'я
+        <input type="text" name="fname">
+    </label>
+
+    <label>
+        Email
+        <input type="email" name="email" required>
+    </label>
+
+    <label>
+        Пароль
+        <input type="password" name="password" >
+    </label>
+
+    <label>
+        Пароль ще раз
+        <input type="password" name="password">
+    </label>
+
+    <label>
+        Стать
+        <input type="radio" name="gender" value="чоловіча"> Чоловіча
+        <input type="radio" name="gender" value="жіноча">Жіноча
+    </label>
+
+    <label>
+        Вік
+        <input type="number" name="age" min="14" max="99">
+    </label>
+
+    <label>
+        Курс
+       <select name="cours" placeholder="Виберіть курс">
+        <option value="Front-End">Front-End</option>
+        <option value="Back-End">Back-End</option>
+        <option value="Project Management"> Project Management</option>
+        <option value="QA Manual">QA Manual</option>
+       </select>
+    </label>
+
+    <label>
+        Повна адреса
+        <textarea name="adress" rows="4" placeholder="Країна, регіон, місто/селище, вулиця"></textarea>
+    </label>
+
+    <label>
+        <input type="checkbox" name="policy" required>Я погоджуюсь з обробкою персональних даних 
+    </label>
+    
+    <label>
+        <button type="reset">Очистити форму</button>
+        <button type="submit">Зареєструватися</button>
+    </label>
+ </form> 
+
+    
+</body>
+</html>
