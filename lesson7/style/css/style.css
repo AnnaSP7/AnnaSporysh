@@ -1,0 +1,119 @@
+@import "/assets/front/OpenSans-Regular.ttf";
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: auto;
+}
+
+.content {
+    max-width: 970px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 48px;
+}
+
+h2 {
+    padding-top: 100px;
+    font-size: 34px;
+    margin: 0 auto;
+}
+
+p{
+    font-size: 18px;
+}
+
+.bggrey {
+    background-color: #F6F6F6;
+    margin: 0 auto;
+
+}
+
+header nav ul li { 
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+    height: 60px;
+    line-height: 60px;
+    color: #828282;
+    list-style-type: none;
+}
+
+a, a.text, a.text:active, a.text:hover {
+    text-decoration: none;
+    color: #828282;  
+}
+
+.denisnovik {
+    width: 100%;
+}
+
+.parahraf {
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.parahraf p:last-child {
+    padding-bottom: 100px;
+   
+}
+
+.adobe {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+.logo {
+    margin-bottom: 25px;
+}
+
+.portfolio {
+    padding-bottom: 40px;
+    padding-top: 70px;
+}
+
+.con {
+    padding-bottom: 60px;
+}
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 44px;
+    background-color: #070707;
+    border-radius: 22px;
+    margin: 0 auto;
+}
+
+.submit a {
+    width: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.application {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.end p {
+    font-size: 14px;
+    padding-bottom: 100px;
+}
