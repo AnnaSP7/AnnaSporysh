@@ -1,0 +1,91 @@
+@import "/assets/font/Roboto.zip";
+
+* {
+ box-sizing: border-box;   
+}
+
+body {
+    font-family: "Roboto Regular", sans-serif; 
+    background:#3B3F45;
+}
+
+header {
+    margin: 0 auto;
+    padding: 19px 10px 12px;
+    text-align: center;
+    color: #FF8984;
+    background-color: #4A4F56;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+ 
+main.container {
+    margin: 0 auto;
+    width: 534px;
+    padding-top: 20px;
+    color: #FFFFFF;
+}
+
+.boxcolor {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    padding-bottom: 14px;
+}
+
+.boxcolor:nth-child(odd) {
+    background-color: #88839e;
+}
+
+.boxcolor:nth-child(even){
+    background-color: #7a7593;
+}
+
+.big {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.little {
+    display: inline-block;
+    font-size: 11px;
+}
+
+
+.box{
+    margin-right: 16px;
+}
+
+.box:checked + p {
+    text-decoration: line-through;
+}
+
+.box:checked + p span {
+    text-decoration: line-through;
+}
+
+input[type="submit"] {
+   width: 100%;
+   margin-top: 45px;
+   border: none;
+   font-size: 18px;
+   padding: 12px;
+   background: #4A4F56;
+   color:#FF8984 
+}
+
+.boxcolor:hover {
+    background-color: #625e77;
+    border-top: 3px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+}
+
+.boxcolor:active {
+        background-color: #FF8984;
+    
+}
+
+
