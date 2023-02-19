@@ -1,0 +1,182 @@
+@import url(../assets/fonts/Farro/Farro.css);
+@import url(../assets/fonts/Francois_One/Francois_One.css);
+@import url(../assets/fonts/PT_Sans/PTSans.css);
+@import url(../assets/fonts/Staatliches/Staatliches.css);
+@import url(../assets/fonts/Tourney/Tourney.css);
+
+body {
+    font-family: "PTSans", sans-serif ;
+}
+
+.header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+}
+
+.wrapper {
+    display: flex;
+    width: 1200px;
+    height: 54px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header__language {
+    font-family: "Tourney", sans-serif;
+    font-size: 22px;
+}
+
+.header__navigation {
+    width: 261px;
+    height: 20px;
+    margin-right: 601px;
+    font-family: "Staaliches", sans-serif ;
+    font-size: 22px;
+}
+
+.header__navigation-item {
+    display: inline;
+}
+
+.header__navigation-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.main-wrapper {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+}
+
+.photo__wrapper {
+    position: fixed;
+    height: 100%;
+    z-index: -1;
+    right: 0;
+    top: 150px;
+}
+
+.photo {
+    position: sticky;
+    z-index: -1;
+    top: 0;
+}
+
+.side-bar {
+    position: sticky;
+    top: 150px;
+    width: 385px;
+    height: 462px;
+    font-size: 36px;
+    font-family: "Francois_One", sans-serif;
+    text-transform: uppercase;
+}
+
+.side-bar__list {
+    width: 365px;
+    height: 58px;
+    border-bottom: 1px solid #BDBDBD;
+    margin-bottom: 80px;
+}
+
+.side-bar__list:last-child {
+    padding: 0;
+}
+
+.divider {
+    width: 100px;
+    height: 8px;
+    background-color: #000000;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    width: 785px;
+    margin-top: 150px;
+}
+
+h2 {
+    display: flex;
+    gap: 10px;
+    font-family: "Francois_One", sans-serif;
+    font-size: 36px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.part {
+    font-family: "Farro";
+    font-size: 20px;
+    vertical-align: text-top;
+    text-transform: none;
+}
+
+.text {
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.chapter3__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.plus {
+    display: inline; 
+    font-family: "PTSans-Bold", sans-serif;
+}
+
+.plus:before {
+    content: '\2795';
+    display: inline-block;
+    padding-right: 10px;
+    color: rgba(0,0,0,0);
+    text-shadow: 0 0 black;
+    font-size: 12px;
+}
+
+.chapter3__block {
+    padding-bottom: 40px;
+}
+
+.chapter3__block:last-child {
+    padding: 0;
+}
+
+.italic {
+    font-family: "PTSans-Italic", sans-serif;
+}
+
+.mark {
+    background-color:darkgray;
+}
+
+.chapter4 {
+    height: 393px;
+    margin-bottom: 90px;
+}
+
+.chapter4__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+
+
