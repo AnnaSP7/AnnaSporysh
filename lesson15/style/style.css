@@ -1,0 +1,188 @@
+@import url("../assets/font/Roboto/Roboto.css");
+
+body {
+    background-color: #E5E5E5;
+    font-family: "Roboto Regular", sans-serif;
+}
+
+.form{
+    box-sizing: border-box;
+    width: 570px;
+    height: 590px;
+    margin: 55px 135px;
+    background-color: #fff;
+    padding: 35px 34px 16px;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: "Roboto Medium", sans-serif;
+    letter-spacing: -0.4px;
+    line-height: 32px;
+    color: #1C1C1C;
+}
+
+.form-account__block {
+    display: inline-block;
+    width: 245px;
+    height: 67px;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    line-height: 22px;
+    margin-top: 20px;
+    color: #545454;
+}
+
+.form-account__input {
+    width: 100%;
+    height: 38px;
+    padding: 0;
+    margin: 0;
+    margin-top: 7px;
+    border-radius: 6px;
+    border: 1px solid #E4E4E4;
+}
+
+.form-account__input:focus {
+    outline: 1px solid #007BFF;
+    border: 1px solid transparent;
+}
+
+.form-account__email {
+    display: block;
+    width: 500px;
+    height: 92px;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+    margin-top: 20px;
+    color: #545454;
+}
+
+.email-input {
+    width: 500px;
+    height: 38px;
+    margin-top: 7px;
+    border-radius: 6px;
+    border: 1px solid #E4E4E4;
+    margin-bottom: 7px;
+}
+
+.email-text {
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #969696;
+}
+
+.wrapper {
+    display: flex;
+    gap: 12px;
+}
+
+.form-account__radio {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    user-select: none;
+    color: #545454;
+}
+
+.block {
+    display: flex;
+    gap: 21px;
+    align-items: center;
+}
+
+.form-account__radio input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: -4px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #E4E4E4;
+    border-radius: 50%;
+}
+
+.form-account__radio input:checked ~ .checkmark {
+    background-color: #007BFF;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.form-account__radio input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.form-account__radio .checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.button {
+    width: 500px;
+    height: 38px;
+    border-radius: 6px;
+    border: 1px solid #E4E4E4;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: -0.1px;
+    font-family: "Roboto Medium", sans-serif;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+.warning {
+    height: 36px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 22px;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #969696;
+    border-bottom: 1px solid #E4E4E4;
+    width: 500px;
+    padding-bottom: 20px;
+}
+
+.warning a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.log-in {
+    height: 22px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+    margin-top: 20px;
+    color: #969696;
+}
+
+.log-in a {
+    text-decoration: none;
+    color: #007BFF;
+    padding-left: 20px;
+    font-family: "Roboto Medium", sans-serif;
+}
