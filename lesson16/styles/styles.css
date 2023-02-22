@@ -1,0 +1,200 @@
+@import url("../assets/fonts/Nunito_Sans/NunitoSans.css");
+@import url("../assets/fonts/Roboto/Roboto.css");
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #16133D;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    border: 1px solid #EFEEF3;
+}
+
+.header__container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.main {
+    width: 1170px;
+    height: 461px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 377px;
+    height: 81px;
+}
+
+.title h3 {
+    font-size: 16px;
+    line-height: 21px;
+    color: #7690A8;
+}
+
+.title h1 {
+    font-size: 40px;
+    letter-spacing: 0.2px;
+}
+
+.main__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.main__cards-item {
+    width: 370px;
+    height: 340px;
+    border: 1px solid #E5EAF4;
+    border-radius: 8px;
+}
+
+.main__cards-item:hover {
+    outline: 1px solid #3DB370;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.main__cards-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 290px;
+    height: 260px;
+    margin: 40px;
+}
+
+.main__cards-icon {
+    width: 64px;
+    height: 64px;
+    border: 1px solid rgba(21, 101, 216, 0.1);
+    border-radius: 16px;
+}
+
+.main__cards-img {
+    margin: 14px 13px;
+}
+
+.main__cards-item .main__cards-hover {
+    display: none;
+}
+
+.main__cards-item:hover .main__cards-hover {
+    display: inline;
+}
+
+.main__cards-item:hover .main__cards-img {
+    display: none;
+}
+
+.main__cards-hover {
+    margin: 14px 13px;
+}
+
+/** Two parts because two icons have the same size and the third has a different size**/
+
+.main__cards-img3 {
+    margin: 14px 20px;
+}
+
+.main__cards-item:hover .main__cards-img3 {
+    display: none;
+}
+
+.main__cards-item:hover .main__cards-hover3 {
+    display: inline;
+}
+
+.main__cards-item .main__cards-hover3 {
+    display: none;
+}
+
+.main__cards-hover3 {
+    margin: 14px 20px;
+}
+
+.main__cards-text {
+    width: 290px;
+    height: 115px;
+}
+
+.main__cards-text h2 {
+    font-size: 24px;
+    letter-spacing: 0.2px;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+
+.main__cards-text p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.main__cards-link {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3DB370;
+}
+
+.footer {
+    height: 193px;
+    background-color: #16133D;
+}
+
+.footer__container {
+    width: 1170px;
+    height: 113px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 10px;
+    width: 230px;
+    height: 38px;
+    padding: 40px 0;
+}
+
+.footer__item {
+    width: 38px;
+    height: 38px;
+    background-color: #EFEEF3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    
+.footer__icon {
+    width: 20px;
+    height: 20px;
+    padding: 9px;
+}
+
+.footer__icon-hover {
+    width: 20px;
+    height: 20px;
+    padding: 9px;
+}
+
+.footer__item .footer__icon-hover {
+    display: none;
+}
+
+.footer__item:hover .footer__icon-hover {
+    display: inline;
+}
+
+.footer__item:hover .footer__icon {
+    display: none;
+}
