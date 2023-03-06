@@ -75,14 +75,13 @@ body {
 }
 
 .main__cards-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 64px;
     height: 64px;
     border: 1px solid rgba(21, 101, 216, 0.1);
     border-radius: 16px;
-}
-
-.main__cards-img {
-    margin: 14px 13px;
 }
 
 .main__cards-item .main__cards-hover {
@@ -97,31 +96,6 @@ body {
     display: none;
 }
 
-.main__cards-hover {
-    margin: 14px 13px;
-}
-
-/** Two parts because two icons have the same size and the third has a different size**/
-
-.main__cards-img3 {
-    margin: 14px 20px;
-}
-
-.main__cards-item:hover .main__cards-img3 {
-    display: none;
-}
-
-.main__cards-item:hover .main__cards-hover3 {
-    display: inline;
-}
-
-.main__cards-item .main__cards-hover3 {
-    display: none;
-}
-
-.main__cards-hover3 {
-    margin: 14px 20px;
-}
 
 .main__cards-text {
     width: 290px;
@@ -181,20 +155,6 @@ body {
     padding: 9px;
 }
 
-.footer__icon-hover {
-    width: 20px;
-    height: 20px;
-    padding: 9px;
-}
-
-.footer__item .footer__icon-hover {
-    display: none;
-}
-
-.footer__item:hover .footer__icon-hover {
-    display: inline;
-}
-
-.footer__item:hover .footer__icon {
-    display: none;
+.footer__icon:hover {
+    fill: #3DB370;
 }
