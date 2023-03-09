@@ -1,0 +1,61 @@
+<svg width="0" height="0" class="hidden">
+  <symbol version="1.1" id="clover" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" xml:space="preserve" viewBox="0 0 512 512">
+    <g>
+      <path d="M393.414,196.386c-29.516,0-56.043,12.298-74.926,32.347c-7.998,8.492-21.881,18.556-36.899,27.406
+		c7.056-26.935,29.339-60.851,44.813-75.729c19.82-19.085,31.992-45.915,31.992-75.75C358.398,47.213,312.656,0.612,256.001,0
+		c-56.66,0.611-102.398,47.213-102.398,104.659c0,29.836,12.172,56.665,31.993,75.75c15.477,14.878,37.76,48.794,44.814,75.728
+		c-15.021-8.85-28.903-18.913-36.9-27.405c-18.884-20.049-45.41-32.347-74.925-32.347c-57.193,0-103.54,46.832-103.54,104.664
+		c0,57.819,46.346,104.669,103.54,104.669c29.521,0,56.041-12.678,74.925-32.726c8.402-8.936,23.222-20.069,39.146-29.316
+		c-1.501,73.848-36.766,128.084-72.659,149.453V512h96.005h96.002v-18.87c-35.896-21.368-71.158-75.606-72.658-149.453
+		c15.926,9.247,30.742,20.384,39.145,29.316c18.885,20.047,45.404,32.726,74.928,32.726c57.191,0,103.537-46.85,103.537-104.669
+		C496.953,243.218,450.609,196.386,393.414,196.386z"></path>
+    </g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+    <g></g>
+  </symbol>
+  <symbol xmlnsDc="http://purl.org/dc/elements/1.1/" xmlnsCc="http://creativecommons.org/ns#" xmlnsRdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlnsSvg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" id="heart" x="0px" y="0px" enable-background="new 0 0 841.89 595.275" xml:space="preserve" inkscapeVersion="0.47 r22583" sodipodiDocname="1280798145.svg" viewBox="0 0 98.325027 85.880819">
+    <metadata id="metadata3755">
+      <rdf:RDF>
+        <cc:Work rdfAbout="">
+          <dc:format>image/svg+xml</dc:format>
+          <dc:type rdfResource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+          <dc:title></dc:title>
+        </cc:Work>
+      </rdf:RDF>
+    </metadata>
+    <defs id="defs3753">
+      <inkscape:perspective sodipodiType="inkscape:persp3d" inkscapeVp_x="0 : 297.63751 : 1" inkscapeVp_y="0 : 1000 : 0" inkscapeVp_z="841.89001 : 297.63751 : 1" inkscapePersp3dOrigin="420.94501 : 198.42501 : 1" id="perspective3757"></inkscape:perspective>
+    </defs>
+    <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscapePageopacity="0" inkscapePageshadow="2" inkscapeWindowWidth="1223" inkscapeWindowHeight="789" id="namedview3751" showgrid="false" inkscapeZoom="3.1716432" inkscapeCx="107.90617" inkscapeCy="53.52449" inkscapeWindowX="158" inkscapeWindowY="317" inkscapeWindowMaximized="0" inkscapeCurrentLayer="Layer_1"></sodipodi:namedview>
+    <path d="M 49.140251,18.76774 C 36.413456,-11.012198 0.23916269,-4.0637498 7.4268869e-4,30.500441 -0.13074531,49.483452 17.226305,56.578738 28.783517,64.167236 c 11.205722,7.360822 19.182034,17.428167 20.431944,21.71358 1.07033,-4.19946 9.95274,-14.551783 20.32655,-21.918744 11.34284,-8.056127 28.91478,-14.68583 28.78227,-33.668841 C 98.085351,-4.3558906 61.281751,-9.8247045 49.140251,18.76774 z" id="path3741"></path>
+  </symbol>
+  <symbol version="1.0" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1137.000000 1280.000000" id="spades">
+    <metadata>Created by potrace 1.15, written by Peter Selinger 2001-2017</metadata>
+    <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+      <path d="M5627 12712 c-315 -496 -846 -1081 -1469 -1618 -336 -290 -572 -477
+-1253 -994 -481 -365 -783 -597 -945 -729 -1167 -948 -1699 -1689 -1870 -2604
+-175 -934 -88 -1745 250 -2333 107 -186 181 -284 330 -437 486 -502 1192 -767
+2115 -793 682 -20 1270 122 1723 416 252 163 499 410 662 661 l42 64 -7 -100
+c-26 -416 -91 -1059 -140 -1383 -200 -1321 -628 -2032 -1497 -2486 -256 -134
+-533 -236 -903 -331 l-170 -44 3185 0 3185 0 -185 49 c-345 91 -577 175 -840
+307 -536 267 -911 642 -1160 1158 -247 514 -387 1169 -480 2245 -31 362 -47
+575 -44 578 1 2 27 -34 57 -80 305 -460 762 -781 1342 -944 124 -35 303 -69
+475 -91 199 -24 698 -24 915 1 760 88 1302 313 1718 715 630 609 838 1543 622
+2790 -162 927 -690 1674 -1860 2627 -174 142 -441 348 -933 721 -890 676
+-1206 933 -1653 1349 -422 393 -837 879 -1099 1286 l-57 89 -56 -89z"></path>
+    </g>
+  </symbol>
+</svg>
