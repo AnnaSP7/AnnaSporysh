@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  width: 94%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    width: 86%;
+    max-width: 1200px;
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+@media screen and (min-width: 1024px) {
+  .main {
+    gap: 90px;
+  }
+}/*# sourceMappingURL=common.css.map */
