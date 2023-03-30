@@ -1,11 +1,4 @@
 <svg width="0" height="0" class="hidden">
-<<<<<<< HEAD
-  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 16" id="arrow">
-    <path d="M15 15L21 8L15 1" stroke="#9C69E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-    <path d="M21 8H1" stroke="#9C69E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-  </symbol>
-</svg>
-=======
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 21" id="facebook">
     <path d="M6.37004 20.4882V10.2429H9.20407L9.57964 6.7123H6.37004L6.37486 4.94521C6.37486 4.02438 6.46253 3.53098 7.78786 3.53098H9.55958V0H6.72515C3.32054 0 2.12221 1.71271 2.12221 4.59296V6.7127H0V10.2433H2.12221V20.4882H6.37004Z"></path>
   </symbol>
@@ -30,4 +23,3 @@
   </symbol>
 </svg>
 </svg>
->>>>>>> 5d4307f5e1adfa49c4a95722a33aac113d0a9865
