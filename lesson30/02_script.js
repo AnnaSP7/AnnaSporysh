@@ -7,6 +7,7 @@ alert(userMoney - (thePriceOfChocolate * Math.floor(userMoney / thePriceOfChocol
 
 
 // let userNum = prompt("Введіть будь-яке трьохзначне число");
+
 // const char1 = userNum % 10;
 // const char2 = ((userNum % 100) - char1) / 10;
 // const char3 = (userNum - (userNum % 100)) / 100;
