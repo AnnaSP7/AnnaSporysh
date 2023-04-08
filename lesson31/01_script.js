@@ -1,6 +1,7 @@
 "use strict";
+        //        1
 
-const userAge = prompt("Скільки вам років?");
+const userAge = prompt("Скільки вам років?", "20");
 
 if (userAge >= 0 && userAge <= 11) {
     alert("Ви  ще дитина");
@@ -14,80 +15,78 @@ if (userAge >= 0 && userAge <= 11) {
     alert("Ви маєте надзвичайний вік!");
 }
 
-let userNum = +prompt("Вибріть число від 0-9");
 
-switch (userNum) {
-    case "1":
-        alert("!");
-        break;
-    
-    case "2":
-        alert("@");
-        break;
-    
-    case "3":
-        alert("#");
-        break;
-    
-    case "4":
-        alert("$");
-        break;
-    
-    case "5":
-        alert("%");
-        break;
-    
-    case "6":
-        alert("^");
-        break;
-    
-    case "7":
-        alert("&");
-        break;
-    
-    case "8":
-        alert("*");
-        break;
-    
-    case "9":
-        alert("(");
-        break;
-    
-    case "0":
-        alert(")");
-            break;
-    
-    default:
-        alert("Невідоме значення!");
+        //   2  
+
+let chooseNum = prompt("Вибріть число від 0-9", "");
+
+if (chooseNum == 1) {
+    alert("!");
+} else if (chooseNum == 2) {
+    alert("@");
+} else if (chooseNum == 3) {
+    alert("#");
+} else if (chooseNum == 4) {
+    alert("$");
+} else if (chooseNum == 5) {
+    alert("%");
+} else if (chooseNum == 6) {
+    alert("^");
+} else if (chooseNum == 7) {
+    alert("&");
+} else if (chooseNum == 8) {
+    alert("*");
+} else if (chooseNum == 9) {
+    alert("(");
+} else if (chooseNum == 0) {
+    alert(")");
+} else {
+    alert("Невідоме значення!");
 }
 
-console.log(1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 0);
 
-let number = prompt("Ведіть число");
-
+        //    3
 
 
-// if (1) {
-//     alert("!");
-// } else if (2) {
-//     alert("@");
-// } else if (3) {
-//     alert("#");
-// } else if (4) {
-//     alert("$");
-// } else if (5) {
-//     alert("%");
-// } else if (6) {
-//     alert("^");
-// } else if (7) {
-//     alert("&");
-// } else if (8) {
-//     alert("*");
-// } else if (9) {
-//     alert("(");
-// } else if (0) {
-//     alert(")");
-// } else {
-//     alert("Невідоме значення!");
-// }
+alert("Вкажіть два числа");
+let number1 = prompt("Введіть перше число");
+let number2 = prompt("Введіть друге число");
+while (number1 != 0 & number2 != 0){
+    if(number1 > number2){//если а больше б, то а присваиваем а/б
+        number1 = number1%number2;
+    }else{
+        number2 = number2%number1;//наоборот
+    }
+}
+
+alert(number1+number2);
+
+
+
+        //    4
+        
+alert("Задайте діапазон чисел для обчислення!");
+const startOfRange = prompt("Початок діапазону", "");
+const endOfRange = prompt("Кінець діапазону", "");
+if (startOfRange < endOfRange) {
+    alert((startOfRange + endOfRange) * (endOfRange - startOfRange + 1) / 2);
+} else {
+    alert("Дані указано не вірно!");
+}
+
+
+
+//        5
+          
+const divisorsOfANamber = prompt("Вкажіть якесь число");
+let divisors = `i, `;
+
+for (let i = 2; i <= divisorsOfANamber; i++) {
+    if (divisorsOfANamber % i == 0) {
+        divisors = divisors + `${i}, `;
+    }
+}
+alert(`Дільники числа  ${divisorsOfANamber} -- ${divisors}`);
+
+
 
