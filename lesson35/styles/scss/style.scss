@@ -1,0 +1,106 @@
+h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.4s, opacity 0.4s;
+
+    &__box {
+        background-color: white;
+        max-width: 500px;
+        padding: 50px;
+        z-index: 1;
+        box-shadow: 0px 1px 29px -5px rgba(0,0,0,0.33);
+        transform: scale(0);
+        transition: transform 0.5s;
+        position: relative;
+    }
+
+    &__text {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    &__close-btn {
+        position: absolute;
+        z-index: 2;
+        right: 35px;
+        bottom: 25px;
+    }
+    
+    &.open {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    &.open .modal__box {
+        transform: scale(1);
+    }
+}
+.traffic-lights__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.traffic-lights__container {
+    width: 80px;
+    height: 200px;
+    background-color: rgb(40, 33, 33);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.traffic-lights__stick {
+    width: 20px;
+    height: 400px;
+    background-color: rgb(40, 33, 33);
+}
+
+.traffic-lights__circle {
+    width: 40px;
+    height: 40px;
+    background-color: slategrey;
+    border-radius: 50px;
+}
+
+.traffic-lights__circle--red {
+    background-color: red;
+    box-shadow: 0 0 25px red;
+    opacity: 0.2;
+}
+
+.traffic-lights__circle--yellow {
+    background-color: yellow;
+    box-shadow: 0 0 25px yellow;
+    opacity: 0.2;
+}
+
+.traffic-lights__circle--green {
+    background-color: green;
+    box-shadow: 0 0 25px green;
+    opacity: 0.2;
+}
+
+.active {
+    opacity: 1;
+}

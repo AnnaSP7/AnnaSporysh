@@ -10,10 +10,10 @@ let shoppingList = [
 ];
 
 
-function showShoppingList(shoppingList) {
-    shoppingList.sort((a, b) => a.bought - b.bought);
-    for (let i = 0; i < shoppingList.length; i++) {
-        const item = shoppingList[i];
+function showShoppingList(list) {
+  list.sort((a, b) => a.bought - b.bought);
+    for (let i = 0; i < list.length; i++) {
+        const item = list[i];
         console.log(`${i + 1}. ${item.name}: ${item.quantity} шт., ${item.price} грн./шт. - ${item.bought ? 'Придбано' : 'Не придбано'}`);
     }
 }
