@@ -12,4 +12,4 @@ function sortName() {
     table.tBodies[0].append(...sortedRows)
 }
 
-nameList.addEventListener("click", sortName);
+nameList.addEventListener("click", sortName);     
