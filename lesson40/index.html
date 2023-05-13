@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="styles/css/rest.css">
     <link rel="stylesheet" href="styles/css/style.css">
@@ -36,30 +43,30 @@
               </li>
               <li class="header__navigation-item">
                   <span class="header__navigation-marker"></span>
-                  <a class="header__navigation-link" href="#">projects</a>
+                  <a class="header__navigation-link" href="#project">projects</a>
               </li>
               <li class="header__navigation-item">
                   <span class="header__navigation-marker"></span>
-                  <a class="header__navigation-link" href="#">news</a>
+                  <a class="header__navigation-link" href="#news">news</a>
               </li>
               <li class="header__navigation-item">
                   <span class="header__navigation-marker"></span>
-                  <a class="header__navigation-link" href="#">contact</a>
+                  <a class="header__navigation-link" href="#contact">contact</a>
               </li>
           </ul>
 
-          <div class="header__navigation-socials">
-              <a href="#"><div class="header__navigation-socials--bg header__navigation-socials--dark">
+          <div class="socials">
+              <a href="#"><div class="socials-bg socials-dark">
                   <svg class="social-icon social-icon--dark">
                       <use xlink:href="assets/icons/sprite.svg#facebook"></use>
                   </svg>
               </div></a>
-              <a href="#"><div class="header__navigation-socials--bg header__navigation-socials--blue">
+              <a href="#"><div class="socials-bg socials-blue">
                   <svg class="social-icon social-icon--blue">
                       <use xlink:href="assets/icons/sprite.svg#twitter"></use>
                   </svg>
               </div></a>
-              <a href="#"><div class="header__navigation-socials--bg header__navigation-socials--pink">
+              <a href="#"><div class="socials-bg socials-pink">
                   <svg class="social-icon social-icon--pink">
                       <use xlink:href="assets/icons/sprite.svg#instagram"></use>
                   </svg>
@@ -136,7 +143,7 @@
       </div>
     </section>
 
-    <section class="news">
+    <section class="news" id="news">
       <img class="news__img" src="assets/images/news/news-img-bg.png" alt="buildings">
       
       <span class="line line--light"></span>
@@ -147,13 +154,12 @@
 
           <div class="swiper-slide">
             <img src="assets/images/news/news-1.png" alt="building">
-            <h3 class="news__title">SEE THE UNMATCHED BEAUTY OF THE GREAT.</h3>
-            <p class="text news__text short">Free directories: directories are perfect for customers that are searching for...
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3 class="news__title"><a href="#" class="news__link">SEE THE UNMATCHED BEAUTY OF THE GREAT.</a></h3>
+            <p class="text news__text">Free directories: directories are perfect for customers that are searching for...</p>
             <div class="news__data">
               <img class="news__data-author" src="assets/images/news/news-author1.png" alt="photo">
               <div class="news__data-info">
-                <h4 class="news__data-info--surname">ALJA BRUN</h4>
+                <h4 class="news__data-info--surname"><a href="#" class="news__link">ALJA BRUN</a></h4>
                 <p class="news__data-info--date">20 Jan 2020</p>
               </div>
             </div>
@@ -161,12 +167,12 @@
 
           <div class="swiper-slide">
             <img src="assets/images/news/news-2.png" alt="building">
-            <h3 class="news__title">EFFECTIVE ADVERTISING POINTERS.</h3>
+            <h3 class="news__title"><a href="#" class="news__link">EFFECTIVE ADVERTISING POINTERS.</a></h3>
             <p class="text news__text">Having a home based business is a wonderful asset to your life...</p>
             <div class="news__data news__data--second">
               <img class="news__data-author" src="assets/images/news/news-author2.png" alt="photo">
               <div class="news__data-info">
-                <h4 class="news__data-info--surname">DOMINIC FREEMAN</h4>
+                <h4 class="news__data-info--surname"><a href="#" class="news__link">DOMINIC FREEMAN</a></h4>
                 <p class="news__data-info--date">13 Dec 2019</p>
               </div>
             </div>
@@ -174,12 +180,12 @@
 
           <div class="swiper-slide">
             <img src="assets/images/news/news-3.png" alt="building">
-            <h3 class="news__title">HYPNOTIZE YOURSELF INTO THE GHOST.</h3>
+            <h3 class="news__title"><a href="#" class="news__link">HYPNOTIZE YOURSELF INTO THE GHOST.</a></h3>
             <p class="text news__text">There are many things that are important to catalog design...</p>
             <div class="news__data news__data--third">
               <img class="news__data-author" src="assets/images/news/news-author3.png" alt="photo">
               <div class="news__data-info">
-                <h4 class="news__data-info--surname">ALICE WARD</h4>
+                <h4 class="news__data-info--surname"><a href="#" class="news__link">ALICE WARD</a></h4>
                 <p class="news__data-info--date">30 Nov 2019</p>
               </div>
             </div>
@@ -187,12 +193,12 @@
 
           <div class="swiper-slide">
             <img src="assets/images/news/news-1.png" alt="building">
-            <h3 class="news__title">SEE THE UNMATCHED BEAUTY OF THE GREAT.</h3>
+            <h3 class="news__title"><a href="#" class="news__link">SEE THE UNMATCHED BEAUTY OF THE GREAT.</a></h3>
             <p class="text news__text">Free directories: directories are perfect for customers that are searching for...</p>
             <div class="news__data">
               <img class="news__data-author" src="assets/images/news/news-author1.png" alt="photo">
               <div class="news__data-info">
-                <h4 class="news__data-info--surname">ALJA BRUN</h4>
+                <h4 class="news__data-info--surname"><a href="#" class="news__link">ALJA BRUN</a></h4>
                 <p class="news__data-info--date">20 Jan 2020</p>
               </div>
             </div>
@@ -200,12 +206,12 @@
 
           <div class="swiper-slide">
             <img src="assets/images/news/news-2.png" alt="building">
-            <h3 class="news__title">EFFECTIVE ADVERTISING POINTERS.</h3>
+            <h3 class="news__title"><a href="#" class="news__link">EFFECTIVE ADVERTISING POINTERS.</a></h3>
             <p class="text news__text">Having a home based business is a wonderful asset to your life...</p>
             <div class="news__data news__data--second">
               <img class="news__data-author" src="assets/images/news/news-author2.png" alt="photo">
               <div class="news__data-info">
-                <h4 class="news__data-info-surname">DOMINIC FREEMAN</h4>
+                <h4 class="news__data-info-surname"><a href="#" class="news__link">DOMINIC FREEMAN</a></h4>
                 <p class="news__data-info--date">13 Dec 2019</p>
               </div>
             </div>
@@ -262,10 +268,10 @@
       </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
       <div id="map" class="maps"></div>
 
-      <!-- <div class="contact__container">
+      <div class="contact__container">
         <span class="line"></span>
         <h2 class="title">GET IN TOUCH</h2>
         <img class="contact__container-img" src="assets/images/form-img.png">
@@ -304,45 +310,50 @@
           <form class="contact__container-form" method="post">
             <input class="input" type="text" name="First Name" placeholder="Mollie Medina" pattern="[A-Za-z]*" autocomplete="off" required>
 
-            <input class="input" type="email" name="E-Mail" placeholder="Email" pattern="[A-Za-z]*" autocomplete="off" required>
+            <input id="input" class="input" type="email" name="E-Mail" placeholder="Email" pattern="[A-Za-z]*" autocomplete="off" required>
+            <div id="error"></div>
 
             <button class="button button--form" type="submit">
             <a href="#" class="button--link">Submit</a>
             </button>
           </form>
         </div>
-      </div> -->
+      </div>
     </section>
   </main>
 
-  <!-- <footer class="footer">
+  <footer class="footer">
     <img class="footer__img" src="assets/images/footer-bg.png" alt="backround-building">
-    <div>
-      <img src="assets/images/logo/Logo.svg" alt="logo">
-      <p>Copyrights © 2020 Montichello</p>
-    </div>
 
-    <div>
-      <a href="#"><div class="header__navigation-socials--bg">
-        <svg class="social-icon">
-            <use xlink:href="assets/icons/sprite.svg#facebook"></use>
-        </svg>
-    </div></a>
-    <a href="#"><div class="header__navigation-socials--bg">
-        <svg class="social-icon">
-            <use xlink:href="assets/icons/sprite.svg#twitter"></use>
-        </svg>
-    </div></a>
-    <a href="#"><div class="header__navigation-socials--bg">
-        <svg class="social-icon">
-            <use xlink:href="assets/icons/sprite.svg#instagram"></use>
-        </svg>
-    </div></a>
-    </div>
-  </footer> -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <div class="footer__container">
+      <div class="footer__container-credit">
+        <a href="#"><img src="assets/images/logo/Logo.svg" alt="logo"></a>
+        <p class="footer__container-credit-copy">Copyrights © 2020 Montichello</p>
+      </div>
   
-  <script src="script/script.js"></script>
+      <div class="socials">
+        <a href="#"><div class="socials-bg  socials-dark">
+          <svg class="social-icon social-icon--dark">
+              <use xlink:href="assets/icons/sprite.svg#facebook"></use>
+          </svg>
+        </div></a>
+        <a href="#"><div class="socials-bg socials-blue">
+          <svg class="social-icon social-icon--blue">
+              <use xlink:href="assets/icons/sprite.svg#twitter"></use>
+          </svg>
+        </div></a>
+        <a href="#"><div class="socials-bg socials-pink">
+          <svg class="social-icon social-icon--pink">
+              <use xlink:href="assets/icons/sprite.svg#instagram"></use>
+          </svg>
+        </div></a>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAI1uZFm121t4uxaVpGe3MVAvdpVn2T6wA&callback=init"></script>
+  <script src="script/script.js"></script>
 </body>
 </html>
